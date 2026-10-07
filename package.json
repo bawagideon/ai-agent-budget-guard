@@ -1,0 +1,17 @@
+{
+  "name": "ai-agent-budget-guard",
+  "version": "1.0.0",
+  "description": "Sliding-window circuit breaker for autonomous AI agents that halts runaway recursive loops and hard-caps execution costs at a strict dollar limit.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/ai-agent-budget-guard.test.js"
+  },
+  "keywords": [
+    "circuit-breaker",
+    "agent-governance",
+    "infinite-loop-breaker",
+    "cost-control"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}
